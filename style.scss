@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loginContainer{
+    background: white;
+    box-shadow: 3px 10px 30px rgba(102,16,242,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 50%;
+    border-radius: 3px;
+    overflow: hidden;
+    .imgContainer{
+        flex:1.5;
+        height: 100%;
+        overflow: hidden;
+        img{
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+.contentContainer{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 50px 50px 70px;
+    height: 100%;
+}
+button{
+    height: 100%;
+    width: 40%;
+    img{
+        height: 100%;
+    }
+}
+.loginButtons{
+    width: 100%;
+}
+h2{
+    margin-bottom: 20px;
+}
+small{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+input{
+    height: 50px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.forgotPassword{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #6610f2;
+    }
+    button{
+        height: 50px;
+        background: #6610f2;
+        outline: none;
+        border: none;
+        color: white;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+        border-radius: 3px;
+        i{
+            margin-left: 20px;
+        }
+    }
+}
+hr{
+    width: 80%;
+    margin:40px auto 10px auto;
+    opacity: 15%;
+    border-color: #6610f2;
+}
+.contentandButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 200px;
+    .loginButtons{
+        display: flex;
+        button{
+            height:50px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background: white;
+            border: 1px solid #6610f2;
+            border-radius: 3px;
+            img{
+                margin-right: 10px;
+                height: 80%;
+            }
+        }
+    }
+    small{
+        margin-top: 20px;
+        a{
+            text-decoration: none;
+            color: #6610f2;
+        }
+    }
+}
+.facebook{
+    margin-right: 20px;
+}
